@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Grievance Application</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="now_you_can_put_your_grievance">Now you can put your grievance!</string>
+    <string name="name">Name</string>
+    <string name="title_for_grievance">Title for grievance</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <string-array name="Branch">
+        <item>Computer</item>
+        <item>Electronics and Telecommunication</item>
+        <item>Electrical</item>
+        <item>Civil</item>
+        <item>Chemical</item>
+    </string-array>
+</resources>
