@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.grievanceapplication" >
+    package="com.example.grievanceapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,27 +14,33 @@
         android:roundIcon="@drawable/kjcoemr"
         android:supportsRtl="true"
         android:theme="@style/Theme.GrievanceApplication"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".View_Updates"
+            android:parentActivityName=".MainActivity"
+            android:exported="true" />
         <activity
             android:name=".MakeGrievance"
             android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="true"/>
         <activity
             android:name=".SignIn"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:exported="true"
+            android:parentActivityName=".SignUp">
+
+        </activity>
         <activity
             android:name=".SignUp"
-            android:exported="false"
-            android:parentActivityName=".SignIn" />
+            android:parentActivityName=".SignIn"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
     </application>
 

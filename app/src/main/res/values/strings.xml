@@ -9,6 +9,14 @@
     <string name="title_for_grievance">Title for grievance</string>
     <string name="description">Description</string>
     <string name="submit">Submit</string>
+    <string name="describe">Description:</string>
+    <string name="title_of_grievance">Title of Grievance:</string>
+    <string name="prachi_potdar">Prachi Potdar</string>
+    <string name="student_name">Name:</string>
+    <string name="branch">Branch:</string>
+    <string name="exam_related">Exam Related</string>
+    <string name="exam_got_automatically_submitted_before_time">Exam got automatically submitted before time.</string>
+    <string name="computer">Computer</string>
     <string-array name="Branch">
         <item>Computer</item>
         <item>Electronics and Telecommunication</item>

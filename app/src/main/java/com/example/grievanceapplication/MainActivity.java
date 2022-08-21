@@ -22,8 +22,12 @@ public class MainActivity extends AppCompatActivity{
         btn1=findViewById(R.id.updates);
         btn2=findViewById(R.id.grievance);
 
-
-
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,View_Updates.class));
+            }
+        });
 
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override

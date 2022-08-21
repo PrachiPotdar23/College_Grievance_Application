@@ -7,7 +7,7 @@
     tools:context=".MakeGrievance">
 
     <TextView
-        android:id="@+id/makegrievance"
+        android:id="@+id/make_grievance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="115dp"
@@ -31,16 +31,16 @@
         android:layout_marginEnd="100dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/name"
+        android:hint="Email"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/makegrievance" />
+        app:layout_constraintTop_toBottomOf="@+id/make_grievance" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -74,7 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <Spinner
         android:id="@+id/spinner"
